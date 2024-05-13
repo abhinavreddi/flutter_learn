@@ -18,9 +18,9 @@ class demo1 extends StatelessWidget {
       ),
       initialRoute: "/",
       routes: {
-        "/": (context) => login_page(),
+        "/": (context) => Login_page(),
         "/Home": (context) => HomePage(),
-        "/login": (context) => login_page(),
+        "/login": (context) => Login_page(),
       },
     );
   }
